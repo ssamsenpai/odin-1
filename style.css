@@ -1,0 +1,78 @@
+* {
+    font-family: roboto;
+    box-sizing: border-box;
+}
+
+body {
+
+    color: aliceblue;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #182435;
+    padding: 20px 200px;
+}
+
+nav .logo {
+    font-weight: 900;
+    font-size: 35px;
+    color: aliceblue;
+}
+
+.flex {
+    padding: 20px 200px;
+    padding-bottom: 100px;
+    background-color: #182435;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .links ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    list-style-type: none;
+}
+
+nav .links li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 22px;
+}
+
+main .flex .image img {
+    width: 400px;
+}
+
+main .flex .text .title h1 {
+    font-size: 70px;
+}
+
+main .flex .text .dis {
+    font-size: 25px;
+    width: 80%;
+    align-content: center;
+}
+
+main .flex .text .btn button {
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    background-color: rgb(0, 110, 255);
+    color: aliceblue;
+    font-size: larger;
+    font-weight: bold;
+    : center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
